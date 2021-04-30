@@ -19,7 +19,7 @@ galaxy_info:
 
   galaxy_tags:
     - yottadb
-    - gt.m
+    - gtm
     - database
 
 dependencies: []
