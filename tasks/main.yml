@@ -47,6 +47,8 @@
   command: '/tmp/ydbinstall.sh --installdir {{ instdir }} {{ "--force-install" if "Yes" in force else "" }} {{ "--gtm" if "Yes" in gtm else "" }} --group {{ group }} --user {{ user }} {{ "--zlib" if "Yes" in zlib else "" }} {{ "--posix" if "Yes" in posix else "" }}'
   register: outpt
   changed_when: outpt.stdout is not search("")
+  tags:
+    - skip_ansible_lint # Ignoring message about the size of the line
 - name: Set the executable links
   file:
     src: '{{ item.src }}'
