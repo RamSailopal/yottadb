@@ -1,0 +1,25 @@
+galaxy_info:
+  author: Raman Sailopal
+  description: Allows the installation of yottadb or GT.M database
+
+  license: MIT
+
+  min_ansible_version: 2.9
+
+  platforms:
+    - name: SLES
+      versions:
+      - all
+    - name: Ubuntu
+      versions:
+      - all
+    - name: Debian
+      versions:
+      - all
+
+  galaxy_tags:
+    - yottadb
+    - gt.m
+    - database
+
+dependencies: []

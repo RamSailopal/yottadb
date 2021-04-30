@@ -1,0 +1,9 @@
+---
+# defaults file for yottadb
+instdir: /usr/local/yottadb
+force: "No"
+gtm:   "No"
+group: "root"
+user: "root"
+zlib: "Yes"
+posix: "Yes"
