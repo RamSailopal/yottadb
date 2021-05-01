@@ -35,7 +35,7 @@ zlib - Whether to install the zlib library or not (Yes or No)
 
 [ Default - No ]
 
-zlib - Whether to install the posix library or not (Yes or No)
+posix - Whether to install the posix library or not (Yes or No)
 
 [ Default - No ]
 
